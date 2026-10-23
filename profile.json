@@ -24,8 +24,8 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Das_F1sHy312",
-    "subtitle": "Building AI workspaces, developer tools & game worlds.",
-    "typing": true,
+    "subtitle": "Building software, tools & whatever comes next.",
+    "typing": false,
     "avatarShape": "cookie12",
     "chips": [
       {
@@ -276,7 +276,7 @@
         "repoUrl": "https://github.com/f1shyondrugs/BlueProtocol-Autofarm"
       },
       {
-        "id": "portfolio",
+        "id": "das-f1shy312-portfolio",
         "title": "Das_F1sHy312's Portfolio",
         "url": "https://f1shy312.com/",
         "text": "My personal website for projects, developer tools and motion design.",
