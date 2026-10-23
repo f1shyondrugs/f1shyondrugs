@@ -1,6 +1,6 @@
 {
- "key": "710582a4",
- "stars": 62,
+ "key": "23b98",
+ "stars": 64,
  "contributions": 1038,
  "repos": 35,
  "followers": 15,
@@ -182,7 +182,7 @@
    "url": "https://github.com/f1shyondrugs/BlueProtocol-Autofarm",
    "text": "Autofarm for various things (for now only fishing lol)",
    "fork": false,
-   "stars": 10,
+   "stars": 11,
    "language": "Python",
    "topics": []
   },
@@ -200,7 +200,7 @@
    "url": "https://github.com/f1shyondrugs/After-Effects-AutoCaptions",
    "text": "Auto-generate captions in After Effects using OpenAI Whisper: export comp → AI transcribes → insert keyframed text layers",
    "fork": false,
-   "stars": 4,
+   "stars": 5,
    "language": "JavaScript",
    "topics": [
     "adobe-cep",
@@ -231,7 +231,7 @@
    "url": "https://github.com/f1shyondrugs/BlueProtocol-Autofarm",
    "text": "Autofarm for various things (for now only fishing lol)",
    "fork": false,
-   "stars": 10,
+   "stars": 11,
    "language": "Python",
    "topics": []
   },
@@ -256,6 +256,26 @@
    ]
   },
   {
+   "name": "After-Effects-AutoCaptions",
+   "url": "https://github.com/f1shyondrugs/After-Effects-AutoCaptions",
+   "text": "Auto-generate captions in After Effects using OpenAI Whisper: export comp → AI transcribes → insert keyframed text layers",
+   "fork": false,
+   "stars": 5,
+   "language": "JavaScript",
+   "topics": [
+    "adobe-cep",
+    "after-effects",
+    "automation",
+    "captions",
+    "transcription",
+    "video-editing",
+    "whisper",
+    "after-effects-plugin",
+    "after-effects-scripts",
+    "keyframes"
+   ]
+  },
+  {
    "name": "ubuntufolio",
    "url": "https://github.com/f1shyondrugs/ubuntufolio",
    "text": "Portfolio in ubuntu style",
@@ -272,26 +292,6 @@
    "stars": 5,
    "language": "Python",
    "topics": []
-  },
-  {
-   "name": "After-Effects-AutoCaptions",
-   "url": "https://github.com/f1shyondrugs/After-Effects-AutoCaptions",
-   "text": "Auto-generate captions in After Effects using OpenAI Whisper: export comp → AI transcribes → insert keyframed text layers",
-   "fork": false,
-   "stars": 4,
-   "language": "JavaScript",
-   "topics": [
-    "adobe-cep",
-    "after-effects",
-    "automation",
-    "captions",
-    "transcription",
-    "video-editing",
-    "whisper",
-    "after-effects-plugin",
-    "after-effects-scripts",
-    "keyframes"
-   ]
   },
   {
    "name": "f1shy312.com",
