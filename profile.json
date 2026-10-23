@@ -46,12 +46,12 @@
         "label": "Metis AI — agents, tools & self-hosted workspaces"
       },
       {
-        "icon": "code",
-        "label": "Pointer — a desktop editor for development workflows"
-      },
-      {
         "icon": "sports_esports",
         "label": "LOTB — a Minecraft MMORPG in development"
+      },
+      {
+        "icon": "code",
+        "label": "Pointer — a desktop editor for development workflows"
       },
       {
         "icon": "brush",
@@ -217,16 +217,16 @@
     "fork": "Fork",
     "cards": [
       {
-        "id": "pointer",
-        "title": "Pointer",
-        "url": "https://pointer.f1shy312.com/",
-        "text": "A desktop code editor with Monaco, terminal tools and agent workflows.",
-        "icon": "code",
+        "id": "metis",
+        "title": "Metis AI",
+        "url": "https://metis.f1shy312.com/",
+        "text": "A self-hosted AI workspace with agents, tools, memory and browser control.",
+        "icon": "hub",
         "tags": [
           "TypeScript",
-          "Electron"
+          "AI"
         ],
-        "repoUrl": "https://github.com/PointerIDE/Pointer"
+        "repoUrl": "https://github.com/f1shyondrugs/metis"
       },
       {
         "id": "lotb",
@@ -240,16 +240,16 @@
         ]
       },
       {
-        "id": "metis",
-        "title": "Metis AI",
-        "url": "https://metis.f1shy312.com/",
-        "text": "A self-hosted AI workspace with agents, tools, memory and browser control.",
-        "icon": "hub",
+        "id": "pointer",
+        "title": "Pointer",
+        "url": "https://pointer.f1shy312.com/",
+        "text": "A desktop code editor with Monaco, terminal tools and agent workflows.",
+        "icon": "code",
         "tags": [
           "TypeScript",
-          "AI"
+          "Electron"
         ],
-        "repoUrl": "https://github.com/f1shyondrugs/metis"
+        "repoUrl": "https://github.com/PointerIDE/Pointer"
       },
       {
         "id": "autocaptions",
