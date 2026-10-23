@@ -113,10 +113,24 @@ index 7527dbb..79c778f 100644
  }
  
 diff --git a/src/render/index.ts b/src/render/index.ts
-index 47cc851..18bfafd 100644
+index 47cc851..627219e 100644
 --- a/src/render/index.ts
 +++ b/src/render/index.ts
-@@ -214,7 +214,10 @@ export function readme(c: Config, d: Data, files: Record<string, string>) {
+@@ -1,4 +1,4 @@
+-import { about, AUTO_ICONS, buttons, card, credit, hero, projectList, projectView, SITE_URL, socials, stack, stats, streak, wave } from "./blocks";
++import { about, AUTO_ICONS, buttons, card, hero, projectList, projectView, socials, stack, stats, streak, wave } from "./blocks";
+ import { esc } from "./kit";
+ import { palette } from "./palette";
+ import type { BlockId, Config, Data, Icons, Lang } from "./types";
+@@ -171,7 +171,6 @@ export function render(c: Config, d: Data, all: Icons, avatar: string | null, th
+     put("streak", streak(ctx));
+     for (const [name, svg] of Object.entries(socials(ctx))) put(name, svg);
+     for (const [name, svg] of Object.entries(buttons(ctx))) put(name, svg);
+-    put("credit", credit(ctx));
+     repos.forEach((r, n) => put(`project-${slug(r.name)}`, card(ctx, r, n)));
+   }
+   return files;
+@@ -214,7 +213,10 @@ export function readme(c: Config, d: Data, files: Record<string, string>) {
        parts.push(linkRow(files, "social", links, c.socials.variant === "chip" ? "auto" : "56", "&nbsp;"));
      }
      if (id === "projects") {
@@ -128,6 +142,13 @@ index 47cc851..18bfafd 100644
        for (let n = 0; n < cards.length; n += 2) parts.push(cards.slice(n, n + 2).join("&nbsp;"));
      }
      if (id === "buttons" && c.buttons.items.length) {
+@@ -222,6 +224,5 @@ export function readme(c: Config, d: Data, files: Record<string, string>) {
+       parts.push(linkRow(files, "button", links, "auto", "&nbsp;&nbsp;"));
+     }
+   }
+-  parts.push(`<a href="${SITE_URL}?from=${encodeURIComponent(c.login)}">${pic("credit", "Made with Expressive Profile", "auto")}</a>`);
+   return '<div align="center">\n\n' + parts.join("\n\n") + "\n\n</div>\n";
+ }
 diff --git a/src/render/types.ts b/src/render/types.ts
 index 119bec7..ddde7f8 100644
 --- a/src/render/types.ts
