@@ -1,0 +1,171 @@
+diff --git a/src/cli/render.ts b/src/cli/render.ts
+index c10d7a5..cbc0a73 100644
+--- a/src/cli/render.ts
++++ b/src/cli/render.ts
+@@ -121,8 +121,12 @@ async function main() {
+   mkdirSync(".profile", { recursive: true });
+   const cacheFile = ".profile/data.json";
+   const cached = existsSync(cacheFile) ? JSON.parse(readFileSync(cacheFile, "utf8")) : null;
+-  const data = await fetchData(config.login);
+-  const ava = await avatar(config.login);
++  const data: Data = process.env.PROFILE_DATA_FILE
++    ? JSON.parse(readFileSync(process.env.PROFILE_DATA_FILE, "utf8"))
++    : await fetchData(config.login);
++  const ava: string | null = process.env.PROFILE_AVATAR_FILE
++    ? readFileSync(process.env.PROFILE_AVATAR_FILE, "utf8").trim()
++    : await avatar(config.login);
+   const { days, ...rest } = data;
+   const day = new Date().toISOString().slice(0, 10);
+   const key = hash(JSON.stringify({ rest, day, avatar: ava ? hash(ava) : null, config }));
+diff --git a/src/render/blocks.ts b/src/render/blocks.ts
+index 7527dbb..79c778f 100644
+--- a/src/render/blocks.ts
++++ b/src/render/blocks.ts
+@@ -1,5 +1,5 @@
+ import { chip, esc, fit, icon, mix, pop, shape, svg, textWidth, txt, wrap } from "./kit";
+-import type { Config, Data, Icons, LinkButton, Palette, Repo, ShapeName, Social } from "./types";
++import type { Config, Data, Icons, LinkButton, Palette, Project, Repo, ShapeName, Social } from "./types";
+ 
+ export const W = 840;
+ export const CARD_SHAPES: ShapeName[] = ["cookie", "clover", "sunny", "flower"];
+@@ -204,25 +204,55 @@ function repoTags(repo: Repo) {
+   return tags;
+ }
+ 
+-export function projectList(c: Config, d: Data) {
++function repositoryKey(url: string) {
++  try {
++    const u = new URL(url);
++    if (u.protocol !== "https:" && u.protocol !== "http:") return "";
++    return (u.host + u.pathname.replace(/\/+$/, "").replace(/\.git$/i, "")).toLowerCase();
++  } catch {
++    return "";
++  }
++}
++
++export function projectList(c: Config, d: Data): Project[] {
++  if (c.projects.cards) {
++    const repos = [...d.all, ...d.pins];
++    return c.projects.cards.slice(0, 6).map((item) => {
++      const key = item.repoUrl ? repositoryKey(item.repoUrl) : "";
++      const source = key ? repos.find((r) => repositoryKey(r.url) === key) : undefined;
++      return {
++        name: item.id,
++        url: item.url,
++        text: item.text,
++        fork: source?.fork ?? false,
++        stars: source?.stars ?? 0,
++        language: source?.language ?? null,
++        topics: source?.topics ?? [],
++        card: item,
++        hasStats: !!source,
++      };
++    });
++  }
+   if (c.projects.source === "manual") {
+     return c.projects.repos.map((n) => d.all.find((r) => r.name === n)).filter((r): r is Repo => !!r);
+   }
+   return d.pins;
+ }
+ 
+-export function projectView(c: Config, repo: Repo, index: number) {
++export function projectView(c: Config, repo: Project, index: number) {
+   const o = c.projects.overrides[repo.name] ?? {};
+   return {
+-    title: repo.name,
+-    text: o.text || repo.text || c.projects.empty,
+-    icon: o.icon || pickIcon(repo),
++    title: repo.card?.title ?? repo.name,
++    url: repo.url,
++    text: repo.card?.text ?? (o.text || repo.text || c.projects.empty),
++    icon: repo.card?.icon || o.icon || pickIcon(repo),
+     shape: o.shape || CARD_SHAPES[index % CARD_SHAPES.length],
+-    tags: repoTags(repo),
++    tags: repo.card?.tags ?? repoTags(repo),
++    hasStats: repo.hasStats !== false,
+   };
+ }
+ 
+-export function card(ctx: Ctx, repo: Repo, index: number) {
++export function card(ctx: Ctx, repo: Project, index: number) {
+   const { c, p, i } = ctx;
+   const w = 412;
+   const h = 232;
+@@ -255,12 +285,14 @@ export function card(ctx: Ctx, repo: Repo, index: number) {
+     b.push(g);
+     x += cw + 6;
+   });
+-  const label = String(repo.stars);
+-  const sw = textWidth(label, 14, 600);
+-  b.push(pop(
+-    icon(i, "star", w - 24 - sw - 22, 188, 19, p.primary) + txt(w - 24, 203, label, 14, p.onSurfaceVariant, { weight: 600, anchor: "end" }),
+-    d0 + 0.4,
+-  ));
++  if (v.hasStats) {
++    const label = String(repo.stars);
++    const sw = textWidth(label, 14, 600);
++    b.push(pop(
++      icon(i, "star", w - 24 - sw - 22, 188, 19, p.primary) + txt(w - 24, 203, label, 14, p.onSurfaceVariant, { weight: 600, anchor: "end" }),
++      d0 + 0.4,
++    ));
++  }
+   return svg(w, h, b.join(""), v.title, c.motion);
+ }
+ 
+diff --git a/src/render/index.ts b/src/render/index.ts
+index 47cc851..18bfafd 100644
+--- a/src/render/index.ts
++++ b/src/render/index.ts
+@@ -214,7 +214,10 @@ export function readme(c: Config, d: Data, files: Record<string, string>) {
+       parts.push(linkRow(files, "social", links, c.socials.variant === "chip" ? "auto" : "56", "&nbsp;"));
+     }
+     if (id === "projects") {
+-      const cards = repos.map((r) => `<a href="${esc(r.url)}">${pic(`project-${slug(r.name)}`, r.name, "49%")}</a>`);
++      const cards = repos.map((r, n) => {
++        const v = projectView(c, r, n);
++        return `<a href="${esc(v.url)}">${pic(`project-${slug(r.name)}`, v.title, "49%")}</a>`;
++      });
+       for (let n = 0; n < cards.length; n += 2) parts.push(cards.slice(n, n + 2).join("&nbsp;"));
+     }
+     if (id === "buttons" && c.buttons.items.length) {
+diff --git a/src/render/types.ts b/src/render/types.ts
+index 119bec7..ddde7f8 100644
+--- a/src/render/types.ts
++++ b/src/render/types.ts
+@@ -24,6 +24,16 @@ export interface Override {
+   shape?: ShapeName;
+ }
+ 
++export interface ProjectCard {
++  id: string;
++  title: string;
++  url: string;
++  text: string;
++  icon?: string;
++  tags?: string[];
++  repoUrl?: string;
++}
++
+ export interface Config {
+   version: 1;
+   login: string;
+@@ -45,6 +55,7 @@ export interface Config {
+   about: { title: string; items: Item[] };
+   stack: { title: string; groups: { title: string; items: Item[] }[] };
+   projects: {
++    cards?: ProjectCard[];
+     source: "pinned" | "manual";
+     repos: string[];
+     overrides: Record<string, Override>;
+@@ -83,6 +94,11 @@ export interface Repo {
+   topics: string[];
+ }
+ 
++export interface Project extends Repo {
++  card?: ProjectCard;
++  hasStats?: boolean;
++}
++
+ export interface Day {
+   c: number;
+   day: number;

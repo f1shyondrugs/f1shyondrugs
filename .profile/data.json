@@ -1,0 +1,567 @@
+{
+ "key": "1885db6f",
+ "stars": 62,
+ "contributions": 1034,
+ "repos": 35,
+ "followers": 15,
+ "languages": [
+  [
+   "TypeScript",
+   5825219
+  ],
+  [
+   "JavaScript",
+   1061939
+  ],
+  [
+   "Python",
+   923507
+  ],
+  [
+   "Lua",
+   689120
+  ],
+  [
+   "HTML",
+   462578
+  ],
+  [
+   "Java",
+   426190
+  ],
+  [
+   "CSS",
+   212640
+  ]
+ ],
+ "days": [
+  [
+   {
+    "c": 11,
+    "day": 4,
+    "today": false
+   },
+   {
+    "c": 7,
+    "day": 5,
+    "today": false
+   },
+   {
+    "c": 11,
+    "day": 6,
+    "today": false
+   },
+   {
+    "c": 4,
+    "day": 7,
+    "today": false
+   },
+   {
+    "c": 24,
+    "day": 8,
+    "today": false
+   },
+   {
+    "c": 6,
+    "day": 9,
+    "today": false
+   },
+   {
+    "c": 12,
+    "day": 10,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 52,
+    "day": 11,
+    "today": false
+   },
+   {
+    "c": 27,
+    "day": 12,
+    "today": false
+   },
+   {
+    "c": 2,
+    "day": 13,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 14,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 15,
+    "today": false
+   },
+   {
+    "c": 3,
+    "day": 16,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 17,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 1,
+    "day": 18,
+    "today": false
+   },
+   {
+    "c": 4,
+    "day": 19,
+    "today": false
+   },
+   {
+    "c": 3,
+    "day": 20,
+    "today": false
+   },
+   {
+    "c": 10,
+    "day": 21,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 22,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 23,
+    "today": true
+   },
+   null
+  ]
+ ],
+ "streak": {
+  "current": 0,
+  "longest": 13
+ },
+ "pins": [
+  {
+   "name": "Pointer",
+   "url": "https://github.com/PointerIDE/Pointer",
+   "text": "A comprehensive development suite consisting of a modern code editor, community Discord bots, and a web presence - all built with React, TypeScript, Python, and Next.js.",
+   "fork": false,
+   "stars": 26,
+   "language": "TypeScript",
+   "topics": []
+  },
+  {
+   "name": "metis",
+   "url": "https://github.com/f1shyondrugs/metis",
+   "text": "A private, self-hosted workspace for AI agents with tools, memory, browser control, MCP servers and multi-provider support.",
+   "fork": false,
+   "stars": 8,
+   "language": "TypeScript",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "anthropic",
+    "browser-automation",
+    "llm",
+    "mcp",
+    "nextjs",
+    "openai",
+    "self-hosted",
+    "typescript"
+   ]
+  },
+  {
+   "name": "BlueProtocol-Autofarm",
+   "url": "https://github.com/f1shyondrugs/BlueProtocol-Autofarm",
+   "text": "Autofarm for various things (for now only fishing lol)",
+   "fork": false,
+   "stars": 10,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "ubuntufolio",
+   "url": "https://github.com/f1shyondrugs/ubuntufolio",
+   "text": "Portfolio in ubuntu style",
+   "fork": false,
+   "stars": 5,
+   "language": "HTML",
+   "topics": []
+  },
+  {
+   "name": "After-Effects-AutoCaptions",
+   "url": "https://github.com/f1shyondrugs/After-Effects-AutoCaptions",
+   "text": "Auto-generate captions in After Effects using OpenAI Whisper: export comp → AI transcribes → insert keyframed text layers",
+   "fork": false,
+   "stars": 4,
+   "language": "JavaScript",
+   "topics": [
+    "adobe-cep",
+    "after-effects",
+    "automation",
+    "captions",
+    "transcription",
+    "video-editing",
+    "whisper",
+    "after-effects-plugin",
+    "after-effects-scripts",
+    "keyframes"
+   ]
+  },
+  {
+   "name": "f1shy312.com",
+   "url": "https://github.com/f1shyondrugs/f1shy312.com",
+   "text": "My Portfolio (f1shy312.com)",
+   "fork": false,
+   "stars": 3,
+   "language": "HTML",
+   "topics": []
+  }
+ ],
+ "all": [
+  {
+   "name": "BlueProtocol-Autofarm",
+   "url": "https://github.com/f1shyondrugs/BlueProtocol-Autofarm",
+   "text": "Autofarm for various things (for now only fishing lol)",
+   "fork": false,
+   "stars": 10,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "metis",
+   "url": "https://github.com/f1shyondrugs/metis",
+   "text": "A private, self-hosted workspace for AI agents with tools, memory, browser control, MCP servers and multi-provider support.",
+   "fork": false,
+   "stars": 8,
+   "language": "TypeScript",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "anthropic",
+    "browser-automation",
+    "llm",
+    "mcp",
+    "nextjs",
+    "openai",
+    "self-hosted",
+    "typescript"
+   ]
+  },
+  {
+   "name": "ubuntufolio",
+   "url": "https://github.com/f1shyondrugs/ubuntufolio",
+   "text": "Portfolio in ubuntu style",
+   "fork": false,
+   "stars": 5,
+   "language": "HTML",
+   "topics": []
+  },
+  {
+   "name": "ClashRoyale-Bot-Python",
+   "url": "https://github.com/f1shyondrugs/ClashRoyale-Bot-Python",
+   "text": "Python Written Clash Royale Playing Bot!",
+   "fork": false,
+   "stars": 5,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "After-Effects-AutoCaptions",
+   "url": "https://github.com/f1shyondrugs/After-Effects-AutoCaptions",
+   "text": "Auto-generate captions in After Effects using OpenAI Whisper: export comp → AI transcribes → insert keyframed text layers",
+   "fork": false,
+   "stars": 4,
+   "language": "JavaScript",
+   "topics": [
+    "adobe-cep",
+    "after-effects",
+    "automation",
+    "captions",
+    "transcription",
+    "video-editing",
+    "whisper",
+    "after-effects-plugin",
+    "after-effects-scripts",
+    "keyframes"
+   ]
+  },
+  {
+   "name": "f1shy312.com",
+   "url": "https://github.com/f1shyondrugs/f1shy312.com",
+   "text": "My Portfolio (f1shy312.com)",
+   "fork": false,
+   "stars": 3,
+   "language": "HTML",
+   "topics": []
+  },
+  {
+   "name": "f1shyondrugs",
+   "url": "https://github.com/f1shyondrugs/f1shyondrugs",
+   "text": "Profile",
+   "fork": false,
+   "stars": 3,
+   "language": null,
+   "topics": []
+  },
+  {
+   "name": "advanced-twitch-bot",
+   "url": "https://github.com/f1shyondrugs/advanced-twitch-bot",
+   "text": "python3 twitch bot with MANY MANY features!",
+   "fork": false,
+   "stars": 2,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "HackClubSummerAutoVoting",
+   "url": "https://github.com/f1shyondrugs/HackClubSummerAutoVoting",
+   "text": "Automatically Votes for you via AI responses",
+   "fork": false,
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": []
+  },
+  {
+   "name": "UGC-Box-RNG",
+   "url": "https://github.com/f1shyondrugs/UGC-Box-RNG",
+   "text": "",
+   "fork": false,
+   "stars": 1,
+   "language": "Lua",
+   "topics": []
+  },
+  {
+   "name": "SellWand",
+   "url": "https://github.com/f1shyondrugs/SellWand",
+   "text": "Sellwand plugin for minecraft",
+   "fork": false,
+   "stars": 1,
+   "language": "Java",
+   "topics": []
+  },
+  {
+   "name": "CaseOpening",
+   "url": "https://github.com/f1shyondrugs/CaseOpening",
+   "text": "CaseOpening Plugin for Minecraft 1.21",
+   "fork": false,
+   "stars": 1,
+   "language": "Java",
+   "topics": []
+  },
+  {
+   "name": "OPCommand",
+   "url": "https://github.com/f1shyondrugs/OPCommand",
+   "text": "This command will give you 10000$ using LiteEco. (german)",
+   "fork": false,
+   "stars": 1,
+   "language": "Java",
+   "topics": []
+  },
+  {
+   "name": "blockyplayz.de-website",
+   "url": "https://github.com/f1shyondrugs/blockyplayz.de-website",
+   "text": "Minecraft Server website for blockyplayz.de",
+   "fork": false,
+   "stars": 1,
+   "language": "HTML",
+   "topics": []
+  },
+  {
+   "name": "BlockyPlayz-Website",
+   "url": "https://github.com/f1shyondrugs/BlockyPlayz-Website",
+   "text": "Website for the upcoming Minecraft server \"BlockyPlayz\"",
+   "fork": false,
+   "stars": 1,
+   "language": "HTML",
+   "topics": []
+  },
+  {
+   "name": "urlshortener",
+   "url": "https://github.com/f1shyondrugs/urlshortener",
+   "text": "URL Shortener",
+   "fork": false,
+   "stars": 1,
+   "language": "HTML",
+   "topics": []
+  },
+  {
+   "name": "monkeytype.f1shy312.com",
+   "url": "https://github.com/f1shyondrugs/monkeytype.f1shy312.com",
+   "text": "monkeytype.",
+   "fork": false,
+   "stars": 1,
+   "language": "HTML",
+   "topics": []
+  },
+  {
+   "name": "encrypter",
+   "url": "https://github.com/f1shyondrugs/encrypter",
+   "text": "encrypt your files!",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "crazyfolio",
+   "url": "https://github.com/f1shyondrugs/crazyfolio",
+   "text": "crazy looking portfolio (laggy)",
+   "fork": false,
+   "stars": 1,
+   "language": "HTML",
+   "topics": []
+  },
+  {
+   "name": "termfolio.f1shy312.com",
+   "url": "https://github.com/f1shyondrugs/termfolio.f1shy312.com",
+   "text": "terminal styled portfolio.",
+   "fork": false,
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": []
+  },
+  {
+   "name": "weather-web-app",
+   "url": "https://github.com/f1shyondrugs/weather-web-app",
+   "text": "Weather Web Applicatin (y'all can have my api key i genuinely do not care)",
+   "fork": false,
+   "stars": 1,
+   "language": "HTML",
+   "topics": []
+  },
+  {
+   "name": "AI-Voice-Assistant",
+   "url": "https://github.com/f1shyondrugs/AI-Voice-Assistant",
+   "text": "AI Voice Assistant written in python",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "SpaceDestroyers",
+   "url": "https://github.com/f1shyondrugs/SpaceDestroyers",
+   "text": "Destroy Meteors with your hands. works via Hand/Body Tracking in Python/Machine Learning",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "reverse-shell-python",
+   "url": "https://github.com/f1shyondrugs/reverse-shell-python",
+   "text": "python reverse shell with file download/upload system. Pretty messy code, but feel free to fork this and make it better!",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "python-ransomware",
+   "url": "https://github.com/f1shyondrugs/python-ransomware",
+   "text": "ONLY FOR EDUCATIONAL PURPOSES! this is only for testing, currently it only encrypts the testfiles folder and every file in it.",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "face-and-eye-recognition",
+   "url": "https://github.com/f1shyondrugs/face-and-eye-recognition",
+   "text": "live camera face/eye recognition, it will draw squares around eyes/face",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "website-subfolder-bruteforce",
+   "url": "https://github.com/f1shyondrugs/website-subfolder-bruteforce",
+   "text": "A simple python program you give a link to and it automatically scans for subfiles/subfolders.",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "notsohuman-humanbenchmark",
+   "url": "https://github.com/f1shyondrugs/notsohuman-humanbenchmark",
+   "text": "Python Written Human Benchmark Beater. More features for every single gamemode will come soon! (https://humanbenchmark.com/)",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "Reddit-Automatic-replier",
+   "url": "https://github.com/f1shyondrugs/Reddit-Automatic-replier",
+   "text": "Writes Automatic Reddit Replies with ChatGPT. Just Specify a Subreddit.",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "python-mp3-player-gui",
+   "url": "https://github.com/f1shyondrugs/python-mp3-player-gui",
+   "text": "Python Pygame MP3 Player GUI, made with customTkinter, Tkinter, functools, mutagen.mp3.",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "Metis-Apps",
+   "url": "https://github.com/f1shyondrugs/Metis-Apps",
+   "text": "Metis AI desktop and mobile applications",
+   "fork": false,
+   "stars": 0,
+   "language": "Java",
+   "topics": []
+  },
+  {
+   "name": "metis-remote-client",
+   "url": "https://github.com/f1shyondrugs/metis-remote-client",
+   "text": "Metis AI Remote Client for Windows",
+   "fork": false,
+   "stars": 0,
+   "language": "JavaScript",
+   "topics": []
+  },
+  {
+   "name": "PlotSquaredExpansion",
+   "url": "https://github.com/f1shyondrugs/PlotSquaredExpansion",
+   "text": "PlotSquared Expansion - Lightweight Plug-In for more Features",
+   "fork": false,
+   "stars": 0,
+   "language": "Java",
+   "topics": []
+  },
+  {
+   "name": "404.f1shy312.com",
+   "url": "https://github.com/f1shyondrugs/404.f1shy312.com",
+   "text": "404 page.",
+   "fork": false,
+   "stars": 0,
+   "language": "HTML",
+   "topics": []
+  },
+  {
+   "name": "LobbyUltimate",
+   "url": "https://github.com/f1shyondrugs/LobbyUltimate",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": "Java",
+   "topics": []
+  }
+ ]
+}

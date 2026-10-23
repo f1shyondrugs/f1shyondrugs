@@ -1,0 +1,344 @@
+{
+  "version": 1,
+  "login": "f1shyondrugs",
+  "seed": "#B36CFF",
+  "seedFromAvatar": false,
+  "scheme": "tonalSpot",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "socials",
+    "about",
+    "projects",
+    "stack",
+    "wave",
+    "buttons",
+    "stats",
+    "streak"
+  ],
+  "hidden": [
+    "stats",
+    "streak"
+  ],
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Das_F1sHy312",
+    "subtitle": "Building AI workspaces, developer tools & game worlds.",
+    "typing": true,
+    "avatarShape": "cookie12",
+    "chips": [
+      {
+        "icon": "location_on",
+        "label": "Hesse, Germany"
+      },
+      {
+        "icon": "code",
+        "label": "Web · Apps · Games"
+      }
+    ]
+  },
+  "about": {
+    "title": "What I build",
+    "items": [
+      {
+        "icon": "hub",
+        "label": "Metis AI — agents, tools & self-hosted workspaces"
+      },
+      {
+        "icon": "code",
+        "label": "Pointer — a desktop editor for development workflows"
+      },
+      {
+        "icon": "sports_esports",
+        "label": "LOTB — a Minecraft MMORPG in development"
+      },
+      {
+        "icon": "brush",
+        "label": "Creative automation, web experiences & game projects"
+      }
+    ]
+  },
+  "stack": {
+    "title": "Tech I build with",
+    "groups": [
+      {
+        "title": "Languages",
+        "items": [
+          {
+            "icon": "brand:typescript",
+            "label": "TypeScript"
+          },
+          {
+            "icon": "brand:javascript",
+            "label": "JavaScript"
+          },
+          {
+            "icon": "brand:python",
+            "label": "Python"
+          },
+          {
+            "icon": "brand:openjdk",
+            "label": "Java"
+          },
+          {
+            "icon": "brand:lua",
+            "label": "Lua / Luau"
+          },
+          {
+            "icon": "brand:godotengine",
+            "label": "GDScript"
+          },
+          {
+            "icon": "brand:dart",
+            "label": "Dart"
+          },
+          {
+            "icon": "brand:swift",
+            "label": "Swift"
+          },
+          {
+            "icon": "brand:html5",
+            "label": "HTML / CSS"
+          }
+        ]
+      },
+      {
+        "title": "Web & UI",
+        "items": [
+          {
+            "icon": "brand:react",
+            "label": "React"
+          },
+          {
+            "icon": "brand:nextdotjs",
+            "label": "Next.js"
+          },
+          {
+            "icon": "brand:tailwindcss",
+            "label": "Tailwind CSS"
+          },
+          {
+            "icon": "brand:shadcnui",
+            "label": "shadcn/ui"
+          },
+          {
+            "icon": "brand:vite",
+            "label": "Vite"
+          },
+          {
+            "icon": "brand:fastapi",
+            "label": "FastAPI"
+          }
+        ]
+      },
+      {
+        "title": "Apps & Games",
+        "items": [
+          {
+            "icon": "brand:electron",
+            "label": "Electron"
+          },
+          {
+            "icon": "brand:flutter",
+            "label": "Flutter"
+          },
+          {
+            "icon": "brand:capacitor",
+            "label": "Capacitor"
+          },
+          {
+            "icon": "brand:android",
+            "label": "Android"
+          },
+          {
+            "icon": "brand:godotengine",
+            "label": "Godot"
+          },
+          {
+            "icon": "brand:roblox",
+            "label": "Roblox"
+          }
+        ]
+      },
+      {
+        "title": "Runtime & Infrastructure",
+        "items": [
+          {
+            "icon": "brand:nodedotjs",
+            "label": "Node.js"
+          },
+          {
+            "icon": "brand:docker",
+            "label": "Docker"
+          },
+          {
+            "icon": "brand:supabase",
+            "label": "SQL / Supabase"
+          },
+          {
+            "icon": "brand:git",
+            "label": "Git"
+          },
+          {
+            "icon": "brand:githubactions",
+            "label": "GitHub Actions"
+          },
+          {
+            "icon": "terminal",
+            "label": "Shell / PowerShell"
+          }
+        ]
+      },
+      {
+        "title": "AI & Automation",
+        "items": [
+          {
+            "icon": "extension",
+            "label": "MCP"
+          },
+          {
+            "icon": "brand:vercel",
+            "label": "AI SDK"
+          },
+          {
+            "icon": "automation",
+            "label": "Playwright"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "manual",
+    "repos": [],
+    "overrides": {},
+    "empty": "",
+    "fork": "Fork",
+    "cards": [
+      {
+        "id": "pointer",
+        "title": "Pointer",
+        "url": "https://github.com/PointerIDE/Pointer",
+        "text": "A desktop code editor with Monaco, terminal tools and agent workflows.",
+        "icon": "code",
+        "tags": [
+          "TypeScript",
+          "Electron"
+        ],
+        "repoUrl": "https://github.com/PointerIDE/Pointer"
+      },
+      {
+        "id": "lotb",
+        "title": "LOTB",
+        "url": "https://www.lotb.net/",
+        "text": "A Minecraft MMORPG in development, with custom classes, combat and progression.",
+        "icon": "sports_esports",
+        "tags": [
+          "Minecraft",
+          "In development"
+        ]
+      },
+      {
+        "id": "metis",
+        "title": "Metis AI",
+        "url": "https://metis.f1shy312.com/",
+        "text": "A self-hosted AI workspace with agents, tools, memory and browser control.",
+        "icon": "hub",
+        "tags": [
+          "TypeScript",
+          "AI"
+        ],
+        "repoUrl": "https://github.com/f1shyondrugs/metis"
+      },
+      {
+        "id": "autocaptions",
+        "title": "AutoCaptions",
+        "url": "https://github.com/f1shyondrugs/After-Effects-AutoCaptions",
+        "text": "Generate timed caption layers in After Effects with a local Whisper backend.",
+        "icon": "closed_caption",
+        "tags": [
+          "After Effects",
+          "Whisper"
+        ],
+        "repoUrl": "https://github.com/f1shyondrugs/After-Effects-AutoCaptions"
+      },
+      {
+        "id": "ubuntufolio",
+        "title": "UbuntuFolio",
+        "url": "https://github.com/f1shyondrugs/ubuntufolio",
+        "text": "An interactive portfolio inspired by the Ubuntu desktop interface.",
+        "icon": "desktop_windows",
+        "tags": [
+          "HTML",
+          "Portfolio"
+        ],
+        "repoUrl": "https://github.com/f1shyondrugs/ubuntufolio"
+      },
+      {
+        "id": "portfolio",
+        "title": "F1sHy Portfolio",
+        "url": "https://f1shy312.com/",
+        "text": "My personal website for projects, developer tools and motion design.",
+        "icon": "web",
+        "tags": [
+          "Web",
+          "Design"
+        ],
+        "repoUrl": "https://github.com/f1shyondrugs/f1shy312.com"
+      }
+    ]
+  },
+  "stats": {
+    "title": "GitHub activity",
+    "stars": "Stars earned",
+    "contributions": "Contributions this year",
+    "repos": "Public repos",
+    "followers": "Followers",
+    "calendar": "Last 21 days",
+    "weekdays": "SMTWTFS",
+    "languages": "Languages across my repositories",
+    "showLanguages": true
+  },
+  "streak": {
+    "title": "Streak",
+    "current": "Current streak",
+    "longest": "Longest this year",
+    "days": "days"
+  },
+  "socials": {
+    "items": [
+      {
+        "icon": "brand:github",
+        "url": "https://github.com/f1shyondrugs"
+      },
+      {
+        "icon": "brand:youtube",
+        "url": "https://www.youtube.com/@F1sHyOnDrUgS"
+      },
+      {
+        "icon": "brand:twitch",
+        "url": "https://www.twitch.tv/f1shy312"
+      }
+    ],
+    "variant": "chip",
+    "fill": "tonal",
+    "card": true
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "language",
+        "label": "My website",
+        "url": "https://f1shy312.com/",
+        "style": "filled"
+      },
+      {
+        "icon": "book_2",
+        "label": "All repositories",
+        "url": "https://github.com/f1shyondrugs?tab=repositories",
+        "style": "tonal"
+      }
+    ]
+  }
+}
