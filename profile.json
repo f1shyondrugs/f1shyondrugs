@@ -219,7 +219,7 @@
       {
         "id": "pointer",
         "title": "Pointer",
-        "url": "https://github.com/PointerIDE/Pointer",
+        "url": "https://pointer.f1shy312.com/",
         "text": "A desktop code editor with Monaco, terminal tools and agent workflows.",
         "icon": "code",
         "tags": [
@@ -264,20 +264,20 @@
         "repoUrl": "https://github.com/f1shyondrugs/After-Effects-AutoCaptions"
       },
       {
-        "id": "ubuntufolio",
-        "title": "UbuntuFolio",
-        "url": "https://github.com/f1shyondrugs/ubuntufolio",
-        "text": "An interactive portfolio inspired by the Ubuntu desktop interface.",
-        "icon": "desktop_windows",
+        "id": "blueprotocol-autofarm",
+        "title": "BlueProtocol Autofarm",
+        "url": "https://github.com/f1shyondrugs/BlueProtocol-Autofarm",
+        "text": "Automated fishing for Blue Protocol: Star Resonance with visual detection and Discord alerts.",
+        "icon": "brand:python",
         "tags": [
-          "HTML",
-          "Portfolio"
+          "Python",
+          "Automation"
         ],
-        "repoUrl": "https://github.com/f1shyondrugs/ubuntufolio"
+        "repoUrl": "https://github.com/f1shyondrugs/BlueProtocol-Autofarm"
       },
       {
         "id": "portfolio",
-        "title": "F1sHy Portfolio",
+        "title": "Das_F1sHy312's Portfolio",
         "url": "https://f1shy312.com/",
         "text": "My personal website for projects, developer tools and motion design.",
         "icon": "web",

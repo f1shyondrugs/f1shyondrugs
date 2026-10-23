@@ -6,11 +6,11 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg"><img src="assets/about-light.svg" width="100%" alt="What I build"></picture>
 
-<a href="https://github.com/PointerIDE/Pointer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-pointer-dark.svg"><img src="assets/project-pointer-light.svg" width="49%" alt="Pointer"></picture></a>&nbsp;<a href="https://www.lotb.net/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-lotb-dark.svg"><img src="assets/project-lotb-light.svg" width="49%" alt="LOTB"></picture></a>
+<a href="https://pointer.f1shy312.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-pointer-dark.svg"><img src="assets/project-pointer-light.svg" width="49%" alt="Pointer"></picture></a>&nbsp;<a href="https://www.lotb.net/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-lotb-dark.svg"><img src="assets/project-lotb-light.svg" width="49%" alt="LOTB"></picture></a>
 
 <a href="https://metis.f1shy312.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-metis-dark.svg"><img src="assets/project-metis-light.svg" width="49%" alt="Metis AI"></picture></a>&nbsp;<a href="https://github.com/f1shyondrugs/After-Effects-AutoCaptions"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-autocaptions-dark.svg"><img src="assets/project-autocaptions-light.svg" width="49%" alt="AutoCaptions"></picture></a>
 
-<a href="https://github.com/f1shyondrugs/ubuntufolio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-ubuntufolio-dark.svg"><img src="assets/project-ubuntufolio-light.svg" width="49%" alt="UbuntuFolio"></picture></a>&nbsp;<a href="https://f1shy312.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-portfolio-dark.svg"><img src="assets/project-portfolio-light.svg" width="49%" alt="F1sHy Portfolio"></picture></a>
+<a href="https://github.com/f1shyondrugs/BlueProtocol-Autofarm"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-blueprotocol-autofarm-dark.svg"><img src="assets/project-blueprotocol-autofarm-light.svg" width="49%" alt="BlueProtocol Autofarm"></picture></a>&nbsp;<a href="https://f1shy312.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-portfolio-dark.svg"><img src="assets/project-portfolio-light.svg" width="49%" alt="Das_F1sHy312&#x27;s Portfolio"></picture></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech I build with"></picture>
 
