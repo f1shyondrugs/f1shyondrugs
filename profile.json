@@ -309,6 +309,10 @@
   "socials": {
     "items": [
       {
+        "icon": "language",
+        "url": "https://f1shy312.com/"
+      },
+      {
         "icon": "brand:github",
         "url": "https://github.com/f1shyondrugs"
       },
