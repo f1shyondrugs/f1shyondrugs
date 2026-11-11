@@ -78,20 +78,12 @@
             "label": "Python"
           },
           {
-            "icon": "brand:openjdk",
+            "icon": "brand:java",
             "label": "Java"
           },
           {
             "icon": "brand:lua",
             "label": "Lua / Luau"
-          },
-          {
-            "icon": "brand:godotengine",
-            "label": "GDScript"
-          },
-          {
-            "icon": "brand:dart",
-            "label": "Dart"
           },
           {
             "icon": "brand:swift",

@@ -1,10 +1,10 @@
 import { createHash } from 'node:crypto';
 
-// A changed chip must use a new URL: GitHub can retain an old SVG at a reused path.
-export function versionSocialAssets(files, readme) {
+// Changed social chips and stack cards need new URLs to avoid stale GitHub images.
+export function versionProfileAssets(files, readme) {
   const versioned = {};
   for (const [path, svg] of Object.entries(files)) {
-    if (!/^assets\/social-.*-(light|dark)\.svg$/.test(path)) {
+    if (!/^assets\/(?:social-.*|stack)-(light|dark)\.svg$/.test(path)) {
       versioned[path] = svg;
       continue;
     }

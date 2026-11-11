@@ -12,7 +12,7 @@
 
 <a href="https://github.com/f1shyondrugs/BlueProtocol-Autofarm"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-blueprotocol-autofarm-dark.svg"><img src="assets/project-blueprotocol-autofarm-light.svg" width="49%" alt="BlueProtocol Autofarm"></picture></a>&nbsp;<a href="https://f1shy312.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-das-f1shy312-portfolio-dark.svg"><img src="assets/project-das-f1shy312-portfolio-light.svg" width="49%" alt="Das_F1sHy312&#x27;s Portfolio"></picture></a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech I build with"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-4b6d04654159-dark.svg"><img src="assets/stack-77c4bcbd3862-light.svg" width="100%" alt="Tech I build with"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/wave-dark.svg"><img src="assets/wave-light.svg" width="100%" alt=""></picture>
 
