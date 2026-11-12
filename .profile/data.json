@@ -1,21 +1,21 @@
 {
- "key": "6815e94e",
+ "key": "7fe42d84",
  "stars": 64,
- "contributions": 1180,
+ "contributions": 1190,
  "repos": 35,
  "followers": 14,
  "languages": [
   [
    "TypeScript",
-   8487894
+   8604751
   ],
   [
    "JavaScript",
-   1953973
+   2053973
   ],
   [
    "Python",
-   973420
+   978584
   ],
   [
    "Lua",
@@ -128,15 +128,19 @@
    {
     "c": 33,
     "day": 11,
+    "today": false
+   },
+   {
+    "c": 10,
+    "day": 12,
     "today": true
    },
-   null,
    null,
    null
   ]
  ],
  "streak": {
-  "current": 3,
+  "current": 4,
   "longest": 13
  },
  "pins": [
