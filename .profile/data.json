@@ -1,17 +1,17 @@
 {
- "key": "97d0387b",
+ "key": "549a3264",
  "stars": 64,
- "contributions": 1257,
+ "contributions": 1258,
  "repos": 35,
  "followers": 14,
  "languages": [
   [
    "TypeScript",
-   8811797
+   8811729
   ],
   [
    "JavaScript",
-   2114709
+   2140658
   ],
   [
    "Python",
@@ -23,7 +23,7 @@
   ],
   [
    "HTML",
-   476045
+   476431
   ],
   [
    "Java",
@@ -133,14 +133,18 @@
    {
     "c": 77,
     "day": 12,
+    "today": false
+   },
+   {
+    "c": 1,
+    "day": 13,
     "today": true
    },
-   null,
    null
   ]
  ],
  "streak": {
-  "current": 4,
+  "current": 5,
   "longest": 13
  },
  "pins": [
